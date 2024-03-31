@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+/* app.css */
+
+.heading1 {
+  background-color: rgb(86, 97, 196);
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border-radius: 20px; /* Border radius */
+  font-size: 24px; /* Font size */
+  font-weight: bold; /* Font weight */
+  text-align: center; /* Text alignment */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.heading1:hover {
+  background-color: rgb(67, 76, 157); /* Darker background color on hover */
+}
+
+/* Margin bottom */
+.heading1 + * {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"],
+  button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"] {
+    width: 250px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+   
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* app.css */
+
+/* app.css */
+
+.employee-list {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f2f2f2; /* Add background color to the table */
+}
+
+.employee-list th,
+.employee-list td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.employee-list th {
+  background-color: #f2f2f2;
+}
+
+.employee-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+.employee-list tr:hover {
+  background-color: #e9e9e9;
+}
+
+
+  /* app.css */
+
+.heading2 {
+  background-color: rgb(196, 97, 86); /* Background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border-radius: 20px; /* Border radius */
+  font-size: 24px; /* Font size */
+  font-weight: bold; /* Font weight */
+  text-align: center; /* Text alignment */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.heading2:hover {
+  background-color: rgb(157, 76, 67); /* Darker background color on hover */
+}
+
+/* Margin bottom */
+.heading2 + * {
+  margin-top: 20px; /* Adjust as needed */
+}
